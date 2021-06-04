@@ -1,0 +1,47 @@
+name: flutter_trip
+description: A new Flutter application.
+version: 1.0.0+1
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_swiper: ^1.1.6
+  http: ^0.12.0+2
+  shared_preferences: ^0.5.3+4
+  r_dart_library: 0.4.0-nullsafety.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+#    - assets/images/ic_main_studio_default.png
+#    - assets/images/ic_main_studio_selected.png
+#    - assets/images/2.0x/
+#    - assets/images/3.0x/
+#    - assets/images/2.0x/ic_main_studio_default.png
+#    - assets/images/3.0x/ic_main_studio_default.png
+#    - assets/images/2.0x/ic_main_studio_selected.png
+#    - assets/images/3.0x/ic_main_studio_selected.png
+#    - assets/images/ic_main_session_selected.png
+#    - assets/images/ic_main_session_default.png
+#    - assets/images/2.0x/ic_main_session_default.png
+#    - assets/images/2.0x/ic_main_session_selected.png
+#    - assets/images/3.0x/ic_main_session_default.png
+#    - assets/images/3.0x/ic_main_session_selected.png
+#    - assets/images/2.0x/ic_main_classic_default.png
+#    - assets/images/2.0x/ic_main_classic_selected.png
+#    - assets/images/3.0x/ic_main_classic_default.png
+#    - assets/images/3.0x/ic_main_classic_selected.png
+#    - assets/images/ic_main_classic_default.png
+#    - assets/images/ic_main_classic_selected.png
+#    - assets/images/2.0x/ic_main_my_selected.png
+#    - assets/images/2.0x/ic_main_my_default.png
+#    - assets/images/3.0x/ic_main_my_selected.png
+#    - assets/images/3.0x/ic_main_my_default.png
+#    - assets/images/ic_main_my_selected.png
+#    - assets/images/ic_main_my_default.png
