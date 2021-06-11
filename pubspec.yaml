@@ -9,8 +9,15 @@ dependencies:
   cupertino_icons: ^0.1.2
   flutter_swiper: ^1.1.6
   http: ^0.12.0+2
-  shared_preferences: ^0.5.3+4
   r_dart_library: 0.4.0-nullsafety.0
+  # https://github.com/Sky24n/common_utils
+  common_utils: ^1.2.1
+  # https://github.com/Sky24n/flustars
+  flustars: ^0.3.3
+  # https://github.com/Sky24n/sp_util
+  sp_util: ^2.0.0
+  # rxdart https://github.com/ReactiveX/rxdart
+  rxdart: 0.22.6
 dev_dependencies:
   flutter_test:
     sdk: flutter

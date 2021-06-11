@@ -2,6 +2,7 @@
 class Assets {
   Assets._();
 
+  static const String imagesIcDajiaLauncher = 'assets/images/ic_dajia_launcher.png';
   static const String imagesIcMainClassicDefault = 'assets/images/ic_main_classic_default.png';
   static const String imagesIcMainClassicSelected = 'assets/images/ic_main_classic_selected.png';
   static const String imagesIcMainMyDefault = 'assets/images/ic_main_my_default.png';

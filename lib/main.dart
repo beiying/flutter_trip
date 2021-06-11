@@ -1,14 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_trip/common/global.dart';
+import 'package:flutter_trip/dajia/welcome_page.dart';
 
-import 'navigator/tab_navigator.dart';
+import 'dajia/tab_navigator.dart';
 
-void main() => runApp(MyApp());
 
+
+var routes = <String, WidgetBuilder>{
+  "/welcome": (BuildContext context) => TabNavigator(),
+  "/main": (BuildContext context) => TabNavigator()
+};
+
+void main() {
+  Global.init(() {
+
+  });
+  runApp(MyApp());
+}
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -22,7 +36,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: TabNavigator(),
+      home: WelComePage(),
+      routes: routes,
     );
   }
 }
