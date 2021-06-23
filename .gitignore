@@ -28,6 +28,11 @@
 .pub-cache/
 .pub/
 /build/
+*.lock
+flutter*.sh
+.flutter*
+
+
 
 # Android related
 **/android/**/gradle-wrapper.jar
