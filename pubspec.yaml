@@ -6,9 +6,27 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # base_library基础组建库,包含：
+  # Dart 常用工具类库 common_utils，
+  # Flutter 常用工具类库 flustars，
+  # 网络 dio，
+  # 国际化 fluintl。
+
+  # 本地依赖
+  #  base_library:
+  #      path: ../FlutterRepos/base_library/
+  # git依赖
+  base_library:
+    git:
+      url: git://github.com/Sky24n/FlutterRepos.git
+      path: base_library
   cupertino_icons: ^0.1.2
   flutter_swiper: ^1.1.6
   http: ^0.12.0+2
+  # Flutter 国际化/多语言库 https://github.com/Sky24n/fluintl
+  fluintl: ^0.1.3
+  # Flutter 城市列表 https://github.com/flutterchina/azlistview
+  azlistview: ^1.0.2
   r_dart_library: 0.4.0-nullsafety.0
   # https://github.com/Sky24n/common_utils
   common_utils: ^1.2.1
