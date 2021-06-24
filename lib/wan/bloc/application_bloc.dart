@@ -5,7 +5,7 @@ import 'bloc_provider.dart';
 class ApplicationBloc implements BlocBase {
   BehaviorSubject<int> _appEvent = BehaviorSubject<int>();
   Sink<int> get _appEventSink => _appEvent.sink;
-  Stream<int> get _appEventStream => _appEvent.stream;
+  Stream<int> get appEventStream => _appEvent.stream;
   @override
   void dispose() {
     _appEvent.close();
