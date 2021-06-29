@@ -1,4 +1,4 @@
-import 'package:flutter_trip/wan/data/protocol/models.dart';
+import 'package:flutter_trip/demo/wan/data/protocol/models.dart';
 import 'package:rxdart/subjects.dart';
 
 import 'bloc_provider.dart';

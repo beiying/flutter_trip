@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MainLeftPage extends StatefulWidget {
-  MainLeftPage({Key? key}) : super(key: key);
+  MainLeftPage({Key key}) : super(key: key);
 
   @override
   _MainLeftPageState createState() => _MainLeftPageState();

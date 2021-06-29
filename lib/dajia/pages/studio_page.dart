@@ -9,7 +9,7 @@ class _StudioPageState extends State<StudioPage> {
   @override
   Widget build(BuildContext context) {
     return Column(
-
+      
     );
   }
 }

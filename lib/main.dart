@@ -6,12 +6,12 @@ import 'package:flustars/flustars.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_trip/common/global.dart';
 import 'package:flutter_trip/dajia/welcome_page.dart';
-import 'package:flutter_trip/wan/bloc/application_bloc.dart';
-import 'package:flutter_trip/wan/bloc/bloc_provider.dart';
-import 'package:flutter_trip/wan/bloc/main_bloc.dart';
-import 'package:flutter_trip/wan/res/strings.dart';
 
 import 'dajia/tab_navigator.dart';
+import 'demo/wan/bloc/application_bloc.dart';
+import 'demo/wan/bloc/bloc_provider.dart';
+import 'demo/wan/bloc/main_bloc.dart';
+import 'demo/wan/res/strings.dart';
 
 var routes = <String, WidgetBuilder>{
   "/welcome": (BuildContext context) => TabNavigator(),

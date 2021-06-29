@@ -1,12 +1,12 @@
 import 'package:fluintl/fluintl.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_trip/demo/navigator_util.dart';
+import 'package:flutter_trip/demo/wan/res/strings.dart';
 import 'package:flutter_trip/pages/search_page.dart';
 import 'package:flutter_trip/utils/utils.dart';
-import 'package:flutter_trip/wan/res/strings.dart';
-
-import '../../navigator_util.dart';
 import 'events_page.dart';
 import 'home_page.dart';
+import 'main_left_page.dart';
 import 'repos_page.dart';
 import 'system_page.dart';
 

@@ -3,15 +3,16 @@ import 'package:dio/dio.dart';
 import 'package:fluintl/fluintl.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_trip/wan/bloc/application_bloc.dart';
-import 'package:flutter_trip/wan/bloc/bloc_provider.dart';
-import 'package:flutter_trip/wan/res/strings.dart';
 
 import 'common.dart';
 import 'common/colors.dart';
 import 'common/sp_helper.dart';
-import 'model/models.dart';
-import 'ui/splash_page.dart';
+import 'wan/bloc/application_bloc.dart';
+import 'wan/bloc/bloc_provider.dart';
+import 'wan/model/models.dart';
+import 'wan/res/strings.dart';
+import 'wan/ui/pages/main_page.dart';
+import 'wan/ui/pages/splash_page.dart';
 
 class DemoApp extends StatefulWidget {
   DemoApp({Key key}) : super(key: key);

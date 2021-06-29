@@ -1,5 +1,6 @@
 import 'package:base_library/base_library.dart';
-import 'package:flutter_trip/demo/model/models.dart';
+
+import 'wan/model/models.dart';
 
 class HttpUtils {
   Future<SplashModel> getSplash() {

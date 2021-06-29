@@ -3,14 +3,14 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:fluintl/fluintl.dart';
 import 'package:flukit/flukit.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_trip/demo/model/models.dart';
+import 'package:flutter_trip/demo/common.dart';
+import 'package:flutter_trip/demo/http_utils.dart';
+import 'package:flutter_trip/demo/navigator_util.dart';
+import 'package:flutter_trip/demo/wan/model/models.dart';
+import 'package:flutter_trip/demo/wan/res/strings.dart';
 import 'package:flutter_trip/utils/utils.dart';
-import 'package:flutter_trip/wan/res/strings.dart';
 import 'package:rxdart/rxdart.dart';
 
-import '../common.dart';
-import '../http_utils.dart';
-import '../navigator_util.dart';
 
 class SplashPage extends StatefulWidget {
   SplashPage({Key key}) : super(key: key);

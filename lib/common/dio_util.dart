@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:base_library/base_library.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter_trip/demo/common/data/base_resp.dart';
 
 /// 请求方法.
 class Method {
